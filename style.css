@@ -2,7 +2,7 @@
 */
 :root {
     --color-de-fondo: #F5F5F5;
-    --color-de-fondo-menu: #ffffff;
+    --color-de-fondo-menu:#ffe3f9;
     --color-de-link: #000000;
 }
 
@@ -50,21 +50,415 @@ a {
     font-size: 0.9rem;
 }
 /* ------------------------------ Sección Presentación ------------------------------*/
+.presentacion__foto{
+    width: 20%;
+    height: 20%;
+    border: 2px solid ;
+    border-radius: 10px;
+    position: relative;
+    transform: translateX(900px);
+}
+
+.presentacion__titulo{
+    width: 1,136px;    
+    
+    margin-top: -20%;
+    font-size: 300%;
+    text-align: justify;
+    text-indent: 5%;
+}
+.presentacion__titulo1{
+    width: 1,136px;    
+   font-size: 300%;
+   font-weight: 200%;
+   margin-top: -2%;
+   text-indent: 5%;
+
+}
+.presentacion__subtitulo{
+    width: 100%;
+    margin-top: 5%;
+    position: relative;
+    font-size: 150%;
+}
+
+.redes{
+    font-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 200px;
+    background-color: #ffe3f9; 
+    border-radius: 10px;
+}
+
+.redes__img2{
+    display: flex;
+    gap:10px;
+}
 
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
 
+.sobre-mi{
+    width: 1400px;
+    height: 380px;
+    padding: 64px;
+    gap: 10px;
 
+
+}
+
+.sobre-mi__titulo{
+    width: 140px;
+    height: 40px;
+    font: 200px;
+    line-height: 40px;
+
+}
+
+.sobre-mi__texto{
+    width: 750px;
+    height: 130px;
+    size: px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.sobre-mi__firma{
+    width: 400px;
+    height: 120px;
+    margin-bottom: 150px;
+}
+    
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
+.habilidades{
+    width: 1140px;
+    height: 240px;
+    gap: 32px;    
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.habilidades__nombre{
+    font-size: 100%;
+    font-weight: 700;
+    size: 16px;
+    line-height: 18px;
+}
+
+.habilidades__titulo{
+    width: 700px;
+    size: 32px;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    align-items: center;
+    margin-left: 600px;
+
+}
+
+.habilidades__lista{
+    width: 1140px;
+    height: 150px;
+    display: flex;
+    gap: 100px;
+    border:2px  darkgrey;
+    margin-bottom: 50px;
+}
+
+.habilidades__icono{
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    max-height: 1000px;
+
+}
+.habilidades__elemento{
+    width: 180px;
+    height: 100px;
+    padding: 20px;
+    gap: 18px;
+    background-color: #ffe3f9; 
+    border-radius: 10px;
+    flex-direction: row;
+}
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
+.aficiones{
+
+    width: 1140px;
+    height: 240px;
+    gap: 16px;    
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.aficiones__titulo{
+    width: 700px;
+    size: 32px;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    align-items: center;
+    margin-left: 600px;
+   
+}
+
+.aficiones__lista{
+    width: 1140px;
+    height: 150px;
+    display: flex;
+    gap: 100px;
+    margin: 0px;
+    border:2px  darkgrey;
+}
+.aficiones__elemento{
+    width: 180px;
+    height: 150px;
+    padding: 20px;
+    gap: 18px;
+    margin: -10px;
+    background-color: #ffe3f9; 
+    border-radius: 10px;
+    flex-direction: row;
+}
+.aficiones__icono{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    max-height: 1000px;
+}
+
+.aficiones__icono1{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+.aficiones__icono2{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+   
+}
+.aficiones__icono3{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+   
+}
+.aficiones__icono_1{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+   
+}
+
+.aficiones__icono_2{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+
+}
+.aficiones__icono__3{
+    display: flex;
+    justify-content: center;
+    width: 90px;
+} 
+
+.aficiones__nombre{
+    font-size: 100%;
+    font-weight: 700;
+    size: 16px;
+    line-height: 18px;
+}
+
+/*------------------------------ Sección de Formacion Académica --------------------------------*/
+.formacion{
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.formacion__titulo{
+    width: 700px;
+    size: 32px;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    align-items: center;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+.formacion__lista{
+    width: 1140px;
+    height: 150px;
+    display: flex;
+    gap: 300px;
+    margin: 0px;
+}
+
+.formacion__icono{
+    width: 180px;
+    height: 150px;
+    padding: 20px;
+    gap: 18px;
+    margin: -10px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    flex-direction: row;
+}
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
 
+.proyectos{
+    width: 360px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 500px;
+}
+
+
+.proyectos__titulo{
+    width: 700px;
+    size: 32px;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.encriptador_icono{
+    width: 600px;
+
+}
+.proyectos__ahorcado{
+    display: flex;
+    align-items: center;
+    margin-left: 650px;
+
+}
+
+.ahorcado_icono{
+    width: 500px;
+    margin-left: 600px;
+
+}
+
+.explicacion_proyectos{
+    width: 750px;
+    height: 130px;
+    size: px;
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.proyecto_formacion{
+    width: 750px;
+    height: 130px;
+    size: px;
+    line-height: 20px;
+    text-align: justify;
+}
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
+
+.contacto{
+    padding: 100px;
+    position: relative;
+    right: 200px;
+    
+}
+.contacto__titulo{
+    width: 360px;
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    top: 300px;
+    margin-left: 700px;
+
+
+}
+
+.contacto__formulario{
+    width: 360px;
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    left: 400px;
+    margin-left: 400px;
+}
+
+.contacto__icono{
+    width: 350px;
+    margin-right: 100px;
+    position: relative;
+    right: 500px;
+    top: 300px;
+}
+
+.contacto__campo1{
+        width: 450px;
+        height: 40px;
+        background-color: #f0f0f0;
+        border: 2px solid #000;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+
+
+
+
+
+}
+.contacto__campo2{
+    width: 450px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+
+}
+
+.contacto__campo--textarea{
+    width: 250px;
+    height: 250px;
+    background-color: #f0f0f0;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+}
+
+.contacto__boton{
+    background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+ 
 
 
 /* ------------------------------ Responsividad ---------------------------------------*/
